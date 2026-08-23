@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    padding: 50px;
+}
+
+.profile {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+p {
+    color: gray;
+}
+
+/* Social media cards */
+.card {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 350px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* LinkedIn */
+.linkedin {
+    background-color: #0077b5;
+}
+
+/* YouTube */
+.youtube {
+    background-color: #ff0000;
+}
+
+/* Mouse hover effect */
+.card:hover {
+    opacity: 0.8;
+}
